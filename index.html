@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conditional Statements:</h1>
+    <script>
+        let age=30
+        if(age>=18){
+            console.log("Allowed")
+        }else{
+            console.log("Not Allowed")
+        }
+        let province="Punjab"
+        if(province=="Punjab"){
+            console.log("Allowed Punjab")
+        }else{
+            console.log("Not Allowed")
+        }
+        let isRainingOutside=true
+        if(isRainingOutside==true){
+            console.log("Take Umbralla")
+        }else{
+            console.log("Good to go")
+        }
+        let licensePasses=3
+        if(licensePasses==3){
+            console.log("You can go")
+        }
+        let grade="A"
+        if(grade=="A"){
+            console.log("Grade A")
+        }else if(grade=="B"){
+            console.log("Grade B")
+        }else if(grade=="C"){
+            console.log("Grade C")
+        }else if(grade=="D"){
+            console.log("Grade D")
+        }else if(grade=="E"){
+            console.log("E")
+        }else{
+            console.log("Grade F Fail")
+        }
+        let userProvince="Punjab"
+        let userAge=20
+        if(userProvince=="Punjab" && userAge>=18){
+            console.log("Both are allowed")
+        }
+        if(userProvince=="Punjab" || userProvince=="Sindh"){
+            console.log("Both are not alllowed")
+        }
+        isRainingOutside=false
+        if(isRainingOutside!=true){
+            console.log("Not raining outside")
+        }
+        let weight=100
+        let height=1.76
+        let bmi=weight/(height**2)
+        if(bmi<18.5){
+            alert("You are underweight")
+        }else if(bmi>=18.5 && bmi<=24.9){
+            alert("You are healthy")
+        }
+        for (let i=0;i<=20;i++){
+            console.log(i)
+        }
+        for (let i=0;i<=20;i=i+2){
+            console.log(i)
+        }
+    </script>
+</body>
+</html>

@@ -64,12 +64,24 @@
         }else if(bmi>=18.5 && bmi<=24.9){
             alert("You are healthy")
         }
-        for (let i=0;i<=20;i++){
+        for(let i=0;i<=20;i++){
             console.log(i)
         }
-        for (let i=0;i<=20;i=i+2){
+        for(let i=0;i<=20;i=i+2){
             console.log(i)
         }
+        let username = promt("What is your name")
+
+        while(username!="Ali"){
+             username = promt("Again Enter your name")
+        }
+
+        let frriendAge = promt("Enter your age")
+        friendAge = number(friendAge)
+        while(friendAge <= 0){
+            friendAge = promt("Wrong Enter your age")
+        }
+        
     </script>
 </body>
 </html>

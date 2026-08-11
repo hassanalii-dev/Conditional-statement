@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greet(){
+            console.log("Hello")
+        }
+
+        greet()
+        greet()
+        greet()
+
+        function calculateBMI(weight, height){
+            let bmi=weight/height**2
+            console.log(bmi)
+        }
+
+        calculateBMI(80,1.76)
+        calculateBMI(85,1.7)
+        calculateBMI(75,1.90)
+        function calculatePercentage(obtMarks,totalMarks) {
+        let percentage=(obtMarks/totalMarks)*100
+        return percentage
+        }
+        let per=calculatePercentage(858,1200)
+        if(per>50){
+            console.log("Good")
+        }else{
+            console.log("Not Good")
+        }
+        function calculateCI(p,r,n,t){
+            let a=p*(1+r/n)**(n*t)
+            return amount
+        }
+
+        let amount=calculateCI(10000,0.05,1,6)
+        console.log(amount)
+    </script>
+</body>
+</html

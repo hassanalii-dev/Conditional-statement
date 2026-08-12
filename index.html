@@ -30,7 +30,7 @@
         if(licensePasses==3){
             console.log("You can go")
         }
-        let grade="A"
+        let grade="B"
         if(grade=="A"){
             console.log("Grade A")
         }else if(grade=="B"){
@@ -56,11 +56,11 @@
         if(isRainingOutside!=true){
             console.log("Not raining outside")
         }
-        let weight=100
+         let weight=100
         let height=1.76
         let bmi=weight/(height**2)
         if(bmi<18.5){
-            alert("You are underweight")
+            alert("You are under weight")
         }else if(bmi>=18.5 && bmi<=24.9){
             alert("You are healthy")
         }
@@ -70,18 +70,16 @@
         for(let i=0;i<=20;i=i+2){
             console.log(i)
         }
-        let username = promt("What is your name")
 
-        while(username!="Ali"){
-             username = promt("Again Enter your name")
+        let username=prompt("What is your name")
+        while(username!="Hassan"){
+            username=prompt("Again, what is your name")
         }
-
-        let frriendAge = promt("Enter your age")
-        friendAge = number(friendAge)
-        while(friendAge <= 0){
-            friendAge = promt("Wrong Enter your age")
+        let MyAge=prompt("Enter you age")
+        MyAge=Number(MyAge)
+        while(MyAge<=0){
+            MyAge=prompt("Wrong, Enter your age")
         }
-        
     </script>
 </body>
 </html>

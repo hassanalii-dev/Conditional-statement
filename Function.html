@@ -6,40 +6,39 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Functions:</h1>
     <script>
         function greet(){
             console.log("Hello")
         }
-
         greet()
         greet()
         greet()
 
-        function calculateBMI(weight, height){
-            let bmi=weight/height**2
-            console.log(bmi)
+        function calculateBMI(weight,height){
+        let BMI=weight/(height**2)
+        console.log(BMI)
         }
+        calculateBMI(50,1.75)
+        calculateBMI(60,1.5)
+        calculateBMI(70,1.56)
 
-        calculateBMI(80,1.76)
-        calculateBMI(85,1.7)
-        calculateBMI(75,1.90)
-        function calculatePercentage(obtMarks,totalMarks) {
-        let percentage=(obtMarks/totalMarks)*100
-        return percentage
+        function CalculatePercentage(ObtMarks,TotalMarks){
+        let Percentage=(ObtMarks/TotalMarks)*100
+        return Percentage
         }
-        let per=calculatePercentage(858,1200)
+        let per=CalculatePercentage(858,1200)
         if(per>50){
             console.log("Good")
         }else{
             console.log("Not Good")
         }
         function calculateCI(p,r,n,t){
-            let a=p*(1+r/n)**(n*t)
+            let amount=p*(1+r/n)**(n*t)
             return amount
         }
-
         let amount=calculateCI(10000,0.05,1,6)
         console.log(amount)
     </script>
 </body>
-</html
+</html>
